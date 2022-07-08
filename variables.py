@@ -20,4 +20,4 @@ quantity = input("\nHow many " + menu + " would you like?\n")
 
 total = price * int(quantity)
 
-print("Okay " + name + ", your total is " + str(total) + " dollars.")
+print("Okay " + name + ", your total is $" + str(total) + " dollars.\n\nWe will have that " + str(quantity) + " " + order + " out for you shortly.")
